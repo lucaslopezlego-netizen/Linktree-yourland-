@@ -177,8 +177,9 @@
   </main>
 
   <script>
-    // ⚙️ CAMBIA AQUÍ tu número de WhatsApp (código de país + número, sin + ni espacios)
-    var WHATSAPP = "584120000000";
+    // Número de WhatsApp (Venezuela +58, 0422-0242414). No se muestra en la página;
+    // solo se usa para armar los enlaces de los botones.
+    var WHATSAPP = ["58", "422", "0242", "414"].join("");
 
     // Genera los links de WhatsApp con mensaje prellenado (funcionan dentro de Instagram)
     document.querySelectorAll("[data-wa]").forEach(function (el) {
