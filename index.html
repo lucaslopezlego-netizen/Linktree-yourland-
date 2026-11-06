@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Yourland | Links</title>
+  <meta name="description" content="Yourland: páginas web profesionales para tu negocio. Catálogo, contacto y redes en un solo link.">
+  <meta name="theme-color" content="#FBF8F4">
+
+  <!-- Vista previa al compartir el link (Instagram, WhatsApp) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Yourland">
+  <meta property="og:title" content="Yourland | Páginas web profesionales">
+  <meta property="og:description" content="Catálogo, contacto y redes en un solo link.">
+  <meta property="og:image" content="https://www.yourlandweb.com/icons/icon-512.png">
+  <link rel="icon" href="https://www.yourlandweb.com/favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #FBF8F4;
+      --surface: #FFFFFF;
+      --ink: #1C1714;
+      --muted: #6B6159;
+      --line: #E8DFD4;
+      --accent: #8C5D34;
+      --accent-soft: #F3EADF;
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.5;
+      min-height: 100vh;
+      min-height: 100dvh;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; -webkit-tap-highlight-color: transparent; }
+
+    .wrap {
+      max-width: 460px;
+      margin: 0 auto;
+      padding: calc(48px + env(safe-area-inset-top)) 20px calc(32px + env(safe-area-inset-bottom));
+    }
+
+    /* Encabezado */
+    header { text-align: center; margin-bottom: 36px; }
+    .logo {
+      width: 84px; height: 84px; margin: 0 auto 18px;
+      border-radius: 50%;
+      background: var(--ink); color: var(--bg);
+      display: grid; place-items: center;
+      font-family: "Fraunces", Georgia, serif; font-size: 40px; font-weight: 600;
+      box-shadow: 0 0 0 6px var(--bg), 0 0 0 7px var(--line);
+    }
+    h1 {
+      font-family: "Fraunces", Georgia, serif;
+      font-weight: 600; font-size: 32px; letter-spacing: -0.02em; line-height: 1.1;
+    }
+    .tagline { color: var(--muted); font-size: 15px; margin-top: 8px; }
+
+    /* Secciones */
+    section { margin-bottom: 32px; }
+    .label {
+      font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--muted); margin: 0 4px 12px;
+    }
+
+    /* Botones */
+    .btn {
+      display: flex; align-items: center; gap: 14px;
+      padding: 16px 20px; margin-bottom: 10px;
+      background: var(--surface); border: 1px solid var(--line); border-radius: 999px;
+      font-weight: 500; font-size: 16px;
+      transition: transform .15s ease, border-color .15s ease;
+    }
+    .btn:active { transform: scale(0.98); }
+    .btn:hover { border-color: var(--accent); }
+    .btn.primary { background: var(--ink); color: #FFF; border-color: var(--ink); }
+    .btn svg { width: 22px; height: 22px; flex-shrink: 0; }
+    .btn span { flex: 1; }
+    .btn .arrow { width: 16px; height: 16px; opacity: .5; }
+
+    /* Catálogo */
+    .plan {
+      display: block;
+      background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 18px 20px; margin-bottom: 10px;
+      transition: transform .15s ease, border-color .15s ease;
+    }
+    .plan:active { transform: scale(0.985); }
+    .plan:hover { border-color: var(--accent); }
+    .plan-top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+    .plan h3 { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 19px; }
+    .price { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 22px; color: var(--accent); white-space: nowrap; }
+    .plan p { color: var(--muted); font-size: 14px; margin-top: 4px; }
+    .plan .cta { display: inline-block; margin-top: 10px; font-size: 13px; font-weight: 600; color: var(--accent); }
+    .badge {
+      display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .04em;
+      background: var(--accent-soft); color: var(--accent);
+      padding: 2px 8px; border-radius: 999px; margin-left: 6px; vertical-align: middle;
+    }
+    .note { font-size: 12px; color: var(--muted); text-align: center; margin-top: 4px; }
+
+    footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+
+    <header>
+      <div class="logo" aria-hidden="true">Y</div>
+      <h1>Yourland</h1>
+      <p class="tagline">Páginas web profesionales para tu negocio</p>
+    </header>
+
+    <!-- CATÁLOGO -->
+    <section>
+      <h2 class="label">Catálogo</h2>
+
+      <a class="plan" data-wa="Hola Yourland, me interesa el plan Landing Page ($50).">
+        <div class="plan-top"><h3>Landing Page</h3><span class="price">$50</span></div>
+        <p>Una sección, adaptada a celular, botones de contacto y redes.</p>
+        <span class="cta">Pedir este plan →</span>
+      </a>
+
+      <a class="plan" data-wa="Hola Yourland, me interesa el plan Experiencia visual ($100).">
+        <div class="plan-top"><h3>Experiencia visual <span class="badge">Popular</span></h3><span class="price">$100</span></div>
+        <p>Diseño premium, animaciones, varias secciones y copiloto de IA.</p>
+        <span class="cta">Pedir este plan →</span>
+      </a>
+
+      <a class="plan" data-wa="Hola Yourland, me interesa el plan App web ($150).">
+        <div class="plan-top"><h3>App web</h3><span class="price">$150</span></div>
+        <p>App instalable, panel de control, gestión de clientes y copiloto de IA.</p>
+        <span class="cta">Pedir este plan →</span>
+      </a>
+
+      <p class="note">Precios en dólares, pago único. Dominio aparte.</p>
+    </section>
+
+    <!-- CONTACTO -->
+    <section>
+      <h2 class="label">Contacto</h2>
+
+      <a class="btn primary" data-wa="Hola Yourland, quiero información sobre una página web para mi negocio.">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.23-9.43 9.44-9.43a9.38 9.38 0 0 1 9.43 9.44c0 5.2-4.23 9.43-9.44 9.43m8.03-17.46A11.27 11.27 0 0 0 12.05.72C5.8.72.7 5.8.7 12.07c0 2 .52 3.95 1.52 5.67L.6 23.28l5.67-1.49a11.3 11.3 0 0 0 5.78 1.47h.01c6.26 0 11.35-5.09 11.35-11.35a11.3 11.3 0 0 0-3.33-8.03"/></svg>
+        <span>Escríbenos por WhatsApp</span>
+        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+
+      <a class="btn" href="https://www.yourlandweb.com/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3"/></svg>
+        <span>Visita nuestra página</span>
+        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </section>
+
+    <!-- REDES -->
+    <section>
+      <h2 class="label">Redes</h2>
+
+      <a class="btn" href="https://www.instagram.com/yourlandweb/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+        <span>Instagram · @yourlandweb</span>
+        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </section>
+
+    <footer>© <span id="y"></span> Yourland</footer>
+  </main>
+
+  <script>
+    // ⚙️ CAMBIA AQUÍ tu número de WhatsApp (código de país + número, sin + ni espacios)
+    var WHATSAPP = "584120000000";
+
+    // Genera los links de WhatsApp con mensaje prellenado (funcionan dentro de Instagram)
+    document.querySelectorAll("[data-wa]").forEach(function (el) {
+      el.href = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(el.getAttribute("data-wa"));
+    });
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
